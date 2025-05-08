@@ -70,3 +70,15 @@ const funName=(a,b)=> //arrow function
             innerHTML = `${hour}:${minute}:${second}`
     },1000)
     
+    function area(l,h){
+        l=a;
+        h=b
+        console.log("the area of rectangle is",l*h);
+    }
+    function simple_interest(p,t,r) {
+        console.log((p*t*r)/100)
+    }
+    let p =42425;
+    let t = 52;
+    let r = 12;
+    simple_interest(p,t,r)
