@@ -1,4 +1,4 @@
-// console.error("lol this is the error here ");
+o// console.error("lol this is the error here ");
 // console.log("this is a sucess message");
 
 // document.write("this message is from document");
@@ -82,4 +82,184 @@ const funName=(a,b)=> //arrow function
    let p =42425;
    let t = 52;
    let r = 12;
-   simple_interest(p,t,r)   
+   simple_interest(p,t,r)  
+
+var s = 20;
+console.log(s);
+
+let a = 20;
+console.log(a);
+
+let c = 20;
+c++;
+console.log(c);
+
+const array = [1, 2, 3, 4, 5];
+console.log(array);
+
+// DATA TYPE
+// 1 primitive datatypes
+
+let num1 = 3;
+console.log(num1);
+console.log(typeof num1);
+
+let str = "Hello BMC";
+console.log(str);
+console.log(typeof str);
+
+let num;
+console.log(num);
+console.log(typeof num);
+
+let num2 = null;
+console.log(num2);
+console.log(typeof num2);
+
+let istrue = true;
+console.log(istrue);
+console.log(typeof istrue);
+
+let str1 = Symbol("hello");
+let str2 = Symbol("world");
+console.log(str1 == str2);
+
+let val =
+  BigInt(34474376476374734766782647826784678478534673856835665783573657645785);
+console.log(val);
+
+console.log(typeof { name: "sunil" });
+console.log(typeof [1, 2, 3, 4]);
+
+//operator
+
+console.log(a + s);
+console.log(2 % 2 == 0 || 2 < 2);
+
+let num4 = 4;
+console.log(++num4);
+
+let num5 = 5;
+console.log(--num5);
+
+// assignment operator
+let val1 = 6;
+val1 += 4;
+console.log(val1);
+
+//comparsion operator    throw the result in Boolean
+// console.log(2!=2)
+// console.log(2>2)
+// console.log(2<=2)
+console.log(2 == "2"); // two check the data type
+console.log(2 === "2"); //to check the data type and string
+console.log(2 !== "3"); //to  check the data type
+console.log(2 !== "3" && "Hero" == "hero");
+
+//ternerary operator
+console.log(2 < 3 ? "hero" : "zero");
+console.log("BMC" >= "BMC");
+
+// let gpa = parseFloat(prompt("enter a gpa"));
+// console.log(gpa <= 4 && gpa >= 3.14 ? "wow" : "xii");
+
+// conditional statement;
+if (2 == 2) {
+  console.log("Equal");
+}
+
+if (3 == 4) {
+  console.log("equal");
+} else {
+  console.log("not equal");
+}
+
+let wheather = "sunny";
+
+if ((wheather = "sunny")) {
+  console.log("i might get sun burn");
+} else if ((wheather = "rainny")) {
+  console.log(" I should carry an umberlla");
+} else if ((wheather = "foggy")) {
+  console.log(" I should wear a  warm cloth ");
+} else {
+  console.log("opps!! bad foramat");
+}
+
+let day = prompt("enter a day");
+switch (day) {
+  case "sunday":
+    console.log("not again!");
+    break;
+
+  case "monday":
+    console.log("mon wala day");
+    break;
+
+  case "tuesday":
+    console.log("Hanuman day");
+    break;
+  case "wednesday":
+    console.log("my borth wala day");
+    break;
+
+  case "thursday":
+    console.log("the week is going to be end");
+    break;
+
+  case "friday":
+    console.log("Happy Friday");
+    break;
+
+  case "saturday":
+    console.log("hurrey  that a  holiday");
+    break;
+}
+
+let gpa = parseFloat( prompt("enter a gpa secrure by you"));
+if (gpa <= 4 || gpa >= 3.6) {
+  console.log("A+");
+} else if (gpa < 3.6 || gpa >= 3) {
+  console.log("A");
+} else if (gpa < 3 || gpa >= 2.6) {
+  console.log("B+");
+} else if (gpa < 2.6 || gpa >= 2) {
+  console.log("B");
+} else if (gpa < 2 || gpa >= 1.6) {
+  console.log("C+");
+}
+ else if( gpa < 1.6 || gpa > 0)
+{
+  console.log("NG");
+}
+
+
+let n1 = Number(prompt("Enter the first number"));
+let n2 = Number(prompt("Enter the second number"));
+let operation = prompt("Enter the operation you want to perform (+, -, *, /)");
+
+switch (operation) {
+  case "+":
+    let sum = n1 + n2;
+    console.log("Sum:", sum);
+    break;
+
+  case "*":
+    let mul = n1 * n2;
+    console.log("Multiplication:", mul);
+    break;
+
+  case "/":
+    let div = n1 / n2;
+    console.log("Division:", div);
+    break;
+
+  case "-":
+    let sub = n1 - n2;
+    console.log("Subtraction:", sub);
+    break;
+
+  default:
+    console.log("Invalid operation");
+}
+ 
